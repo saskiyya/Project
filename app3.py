@@ -1,7 +1,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 import joblib
+import io
+import base64
+import os
 
 # ================================================================
 # PAGE CONFIG (harus paling atas sebelum st command lainnya)
